@@ -1,16 +1,19 @@
 {
   "expo": {
-    "name": "mobil",
-    "slug": "mobil",
+    "name": "Pazarıstan",
+    "slug": "pazaristan-mobil",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "mobil",
+    "scheme": "pazaristan",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pazaristan.mobil"
     },
     "android": {
+      "package": "com.pazaristan.mobil",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -37,6 +40,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cffa662e-6843-4df9-aa87-217e7c22f385"
+      },
+      "router": {}
     }
   }
 }
